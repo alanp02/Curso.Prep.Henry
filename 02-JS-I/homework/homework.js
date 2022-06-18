@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-    console.log(str);
+    return str;
   
 }
 
@@ -160,7 +160,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
- return Math.random
+ return Math.random()
 }
 
 function esPositivo(numero) {
@@ -195,8 +195,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var nombre = "hola "+ nombre +"!";
-  return nombre
+  return "hola "+ {nombre} +"!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
