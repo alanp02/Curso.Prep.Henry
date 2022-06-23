@@ -1,0 +1,5 @@
+for: bucle que esta formado por 3 expresiones. Iniciacion (se evalua antes de iniciar el bucle), condicion (expresion evaluada ante cada vuelta del bucle, si es true el bucle avanza), expresion final(resultado despues de cada vuelta del bucle.).
+
+&&: operador logico que compara operandos. Devuelve TRUE solo si todos los operandos son evaluados como tal.
+||: operador logico. Devuelve TRUE si alguno de los operandos es evaluado como tal.
+!: operador que convierte de TRUE a FALSE o al reves.

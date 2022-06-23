@@ -1,0 +1,12 @@
+
+variables: es una palabra que se crea para poder darle algun valor y hacer uso del mismo dentro del codigo.
+
+string: es un tipo de dato que se le puede asignar a una variable, del tipo texto, o cadena de texto.
+
+funciones: ejecucion de codigo (o tambien interaccion entre variables ¿?).
+argumentos hace referencia a valores que pasamos a la funcion, para que esta se ejecute en base a esos valores pasados.
+return es una declaracion, que usandolo dentro de una funcion nos permite saber el resultado. ya que de otra manera no se puede acceder a lo que devuelve una funcion.
+
+declaracion if: es un operador de control de flujo. genera una respuesta en base a las condiciones que se plantean dentro de la funcion.
+
+valores booleanos: valor que admite 2 estados, true o false, si o no, 1 o 0. 
