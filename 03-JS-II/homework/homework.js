@@ -18,9 +18,10 @@ function mayoriaDeEdad(edad) {
   if (edad >= 18){
     return "Allowed";
   }
-  return "Not Allowed";
+  else {
+    return "Not Allowed";
+  }
 }
-
   
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
@@ -34,7 +35,9 @@ function conection(status) {
   else if(status === 2) {
     return "Away";
   } 
-  else return "Offline";
+  else {
+    return "Offline";
+  }
 }
 
 function saludo(idioma) {
@@ -50,7 +53,8 @@ function saludo(idioma) {
     return "Ni Hao!";
   } else if (idioma === "ingles"){
     return "Hello!";
-  } else {return "Hola!";
+  } else {
+    return "Hola!";
   }
 }
 
@@ -82,18 +86,14 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero === 10 || numero === 5) {
-    return true;
-  } else return false;
+  return numero === 10 || numero === 5;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  if ((numero < 50 && numero > 20)) {
-    return true;
-  } else return false;
+  return numero < 50 && numero > 20;
 }
 
 function esEntero(numero) {
@@ -104,9 +104,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if ((numero % 1) === 0) {
-    return true
-  } return false
+ 
+  return numero % 1 === 0;
 }
 
 function fizzBuzz(numero) {
@@ -150,12 +149,11 @@ function esPrimo(numero) {
   if (numero < 2) return false;
   if (numero === 2) return true;
   for (i = 2; i < numero; i++) {
-    if ( (numero % i) === 0) {
+    if ( numero % i === 0) {
       return false;
     }
-    } 
-    return true;
-
+  } 
+  return true;
 }
 
 function esVerdadero(valor){
@@ -164,7 +162,8 @@ function esVerdadero(valor){
   //Escribe tu código aquí
   if (valor === true) {
     return "Soy verdadero";
-  } else return "Soy falso";
+  } 
+  return "Soy falso";
 
 }
 
@@ -194,7 +193,7 @@ function doWhile(numero) {
   var a = numero;
   var i = 0;
   do {
-    i = i++;
+    i = i + 1;
     a = a + 5;
   }
   while ( i < 8);
