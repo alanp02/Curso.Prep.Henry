@@ -245,7 +245,7 @@ function continueStatement(numero) {
   suma = numero;
   for (var i = 0; i < 10; i++) {
     suma = suma + 2;
-    if (i === 4) continue;
+    if (i === 9) continue;
     else {
       array.push(suma);
     }
