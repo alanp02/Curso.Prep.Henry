@@ -19,7 +19,7 @@ function mayoriaDeEdad(edad) {
     return "Allowed";
   }
   else {
-    return "Not Allowed";
+    return "Not allowed";
   }
 }
   
@@ -68,13 +68,13 @@ function colors(color) {
   //Usar el statement Switch.
   switch (color) {
     case "blue": 
-      return "this is blue";
+      return "This is blue";
     case "red": 
-      return "this is red";
+      return "This is red";
     case "green": 
-      return "this is green";
+      return "This is green";
     case "orange": 
-      return "this is orange";
+      return "This is orange";
     default:
       return "Color not found";
   
@@ -119,6 +119,7 @@ function fizzBuzz(numero) {
     return "fizz" }
   if (numero % 5 === 0) {
     return "buzz" }
+  else return numero;
 }
 
 function operadoresLogicos(num1, num2, num3) {
